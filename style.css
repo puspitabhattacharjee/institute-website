@@ -1,0 +1,52 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+/* meet our leadership */
+.meet{
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.meetsection{
+    width: 50%;
+}
+.meetsection img{
+    background-color: aquamarine;
+    border-top-right-radius: 200px;
+    padding: 0px 15px;
+}
+.meetdes{
+    width: 50%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.singleBox img {
+    width: 80px;
+    margin: auto;
+}
+.singleBox {
+    width: 300px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+

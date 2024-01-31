@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <title>Sign in</title>
+
+</head>
+<body>
+    <div class="bg-gray-100 py-14 px-4 lg:px-0">
+        <div class="hero-content">
+          <div class="card py-12 text-center shadow-2xl bg-white w-full md:w-3/4 lg:w-2/3  mx-auto rounded-xl mt-4">
+            <form class="card-body">
+              <h1 class="md:text-4xl text-3xl font-bold mb-2">Create an new account</h1>
+              <p class="mb-6 text-[#343434] text-[14px] lg:text-base font-semibold">Connect with your friends today!</p>
+              <div class="w-9/12 mx-auto">
+                <div class="form-control">
+                  <input
+                    name="name"
+                    type="text"
+                    placeholder="Enter Your Name"
+                    class="input border border-gray-400 p-[10px] rounded-xl w-full mb-6" required />
+                </div>
+                <div class="form-control">
+                  <input
+                    name="Phone"
+                    type="text"
+                    placeholder="Enter Your Phone Number"
+                    class="input border border-gray-400 p-[10px] rounded-xl w-full mb-6"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <input
+                    name="email"
+                    type="text"
+                    placeholder="Enter Your Email"
+                    class="input border border-gray-400 p-[10px] rounded-xl w-full mb-6"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <input
+                    name="password"
+                    type="password"
+                    placeholder="Enter Your Password"
+                    class="input border border-gray-400 p-[10px] rounded-xl w-full mb-6"
+                    required
+                  />
+                </div>
+                <br />
+              </div>
+            </form>
+            <a href="#">
+              <div class="bg-[#FEEC62] rounded font-semibold text-black py-3 md:px-14 px-12 inline-block mb-6"  onclick="showAlert()">
+              <p>Sign In</p>
+            </div>
+          </a>
+
+          <script>
+            function showAlert() {
+              alert("Horray ! You are a new member in our family"); }
+          </script>
+
+            <div class='flex justify-center items-center mb-5'>
+              <div class='bg-gray-400 lg:w-[104px] md:w-[80px] w-[70px] h-[1px] mr-2'></div>
+              <div><p class='text-gray-900'>Or With</p></div>
+              <div class='bg-gray-400 lg:w-[104px] md:w-[80px] w-[70px] h-[1px] ml-2'></div>
+              
+            </div>
+          <div class='bg-[#0E624E] w-9/12 flex justify-center items-center gap-x-3 py-[10px] rounded-lg mx-auto mb-[2px] hover:shadow-md hover:shadow-[#0e624e49]'> 
+          <FaFacebook class='rounded-full text-2xl text-white bg-blue-600'></FaFacebook> 
+         <button class='font-medium text-white'> Sign in With Facebook</button>
+          </div>
+             <br />
+    
+          <div class='bg-transparent border border-gray-400 text-black w-9/12 flex justify-center items-center gap-x-3 py-[10px] rounded-lg mx-auto mb-6 hover:shadow-md hover:shadow-[#0e624e49]'> 
+          <FaGoogle class='rounded-full text-xl'></FaGoogle>
+         <button class='font-medium'> Sign in With Google</button>
+         </div>
+    
+            <p class="text-center mb-8 font-medium">
+              Already have an account?
+              <a href="login.html"><span class="font-bold ml-2 text-[#0E624E]">Login</span></a>
+            </p>
+          </div>
+        </div>
+        </div>
+    
+<!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/d00d7ba521.js" crossorigin="anonymous"></script>
+</body>
+</html>

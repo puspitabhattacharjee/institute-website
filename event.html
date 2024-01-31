@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Arial', sans-serif; }
+        .event-header { background-color: #4CAF50; color: #fff; padding: 1rem; text-align: center; }
+        .event-details { padding: 2rem; }
+        .event-details h2 { color: #4CAF50; }
+        .event-description button { background-color: #4CAF50; }
+        .event-description { padding: 2rem; color: #4CAF50; }
+        .event-description p { line-height: 1.4;color: #121412; }
+    </style>
+    <title> Event</title>
+</head>
+<body>
+    <nav class="bg-white text-black py-2">
+        <div class="container">
+            <div class="flex justify-between items-center">
+                <img src="images/logo.png" alt="">
+                <div class="flex space-x-14 text-[#3f4853] font-semibold">
+                    <ul><a class="hover:text-[#3cb878]" href="index.html">Home</a></ul>
+                    <ul><a class="hover:text-[#3cb878]" href="course.html">Course</a></ul>
+                    <ul><a class="hover:text-[#3cb878]" href="blog.html">Blog</a></ul>
+                    <ul><a class="hover:text-[#3cb878]" href="event.html">Event</a></ul>
+                    <ul><a class="hover:text-[#3cb878]" href="service.html">Service</a></ul>
+                    <ul><a class="hover:text-[#3cb878]" href="about.html">About</a></ul>
+                    <ul><a class="hover:text-[#3cb878]" href="contact.html">Contact</a></ul>
+                    <ul><a class="hover:text-[#3cb878]" href="gallery.html">Gallery</a></ul>
+                </div>
+                <div class="flex space-x-5">
+                  <a href="login.html"><button class="bg-blue-500 text-white rounded-md p-2 mt-4 hover:bg-blue-600 mb-3 mr-2">Login</button></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Event Header -->
+<div class="event-header bg-gray-200">
+  <h1 class="text-4xl md:text-[54px] underline underline-offset-[20px] decoration-1 text-center font-semibold uppercase">Event</h1>
+    <p class="text-lg">Connecting Minds, Creating Opportunities</p>
+</div>
+
+<!-- Event Details -->
+<div class="event-details bg-gray-200">
+    <h2 class="text-2xl font-bold mb-4">Event Details</h2>
+    <ul class="list-disc">
+        <li><strong>Date:</strong> November 20, 2023</li>
+        <li><strong>Time:</strong> 2:00 PM - 5:00 PM</li>
+        <li><strong>Location:</strong> Networking Hall, IT Bangladesh</li>
+    </ul>
+</div>
+
+<!-- Event Description -->
+<div class="event-description text-xl flex flex-col items-center bg-gray-200">
+    <h1 class="text-3xl underline underline-offset-[20px] decoration-1 text-center font-semibold pb-10">About the Event</h1>
+    <p>
+        Join us for an engaging networking class event where industry experts and enthusiasts come together to
+        explore the latest trends, share insights, and build connections in the field of networking. Whether you
+        are a seasoned professional or just starting your journey in networking, this event provides a unique
+        opportunity to expand your knowledge and network with like-minded individuals.
+    </p>
+    <button class="bg-gray-500 text-white rounded-md p-2 mt-4 hover:bg-blue-600 mb-3" onclick="showAlert()">Join Now</button>
+    <script>
+        function showAlert() {
+          alert("Please Contact IT Bangladesh Office"); }
+    </script>
+</div>
+
+ <!-- main footer -->
+ <div class="px-10 pt-20">
+  <hr class="border-b-2 border-black">
+    <div class="flex justify-center">
+      <div class="w-[98%] md:w-full h-[1px] bg-[#666666]"></div>
+    </div>
+    <div class="">
+      <div class="xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 sm:grid  grid grid-cols-1  gap-4">
+        <div>
+          <img src="images/logo.png" alt="" />
+          <div class="pt-4">
+            <p class="p-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Fugiat nobis laboriosam saepe illum corporis praesentium
+              quidem sed aliquam sapiente, dolore omnis incidunt qui
+              aspernatur quod quae minus vel neque. Est.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 text-[#666666]">
+          <h1 class="text-xl  font-bold">Quicks Links</h1>
+          <div class="pt-10 text-base font-semibold leading-8 flex flex-col">
+            <Link>Upcoming Live Batch</Link>
+            <Link>Free Seminar</Link>
+            <Link>Success Story</Link>
+            <Link>Our Gallery</Link>
+            <Link>FAQ</Link>
+            <Link>BLog & Event</Link>
+            <Link>Privacy Policy</Link>
+          </div>
+        </div>
+        <div class="p-6 text-[#666666]">
+          <h1 class="text-xl  font-bold">Contract Us</h1>
+          <div class="pt-8 text-base font-semibold leading-8">
+            <a
+              href="tel:+8801886688396"
+              class="flex items-center gap-2">+880 1886 688396
+             <div class="w-5 h-5"></div></a>
+            <a href="mailto:riyadhossain356@gmail.com"
+              class="pt-[2px] flex items-center gap-2">itbd@gmail.com
+              <AiTwotoneMail class="w-5 h-5 pt-1" />
+            </a>
+          </div>
+        </div>
+        <div class="text-[#666666] ">
+          <div class=" text-[#666666] p-6">
+            <h1 class="text-xl font-bold">Others</h1>
+            <div class="pt-8 flex flex-col text-base font-semibold leading-8 ">
+              <Link>About Us</Link>
+              <br>
+              <Link>Our Achievment</Link>
+            </div>
+            <p class=" text-base font-semibold flex lg:pt-8">
+                558/4th Floor , <br />
+                East Kazipara <br />
+                Mirpur,Dhaka-1216</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <div class="w-[98%] h-[1px] bg-[#666666]"></div>
+    </div>
+    <div class="text-center text-base text-[#666666] p-4">
+      <hr class="border-b-1 border-black">
+      <p class="flex items-center justify-center gap-1">
+        Copyright <AiOutlineCopyrightCircle class="pl-1 pt-1" /> IT
+        Bangladesh
+        <span class="bg-[#666666] h-4 w-[1.5px]"></span>Powered by IT
+        Bangladesh
+      </p>
+    </div>
+  </div>
+</body>
+</html>
